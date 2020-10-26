@@ -1,0 +1,183 @@
+/* 720 */
+header
+{
+  width: 720px;
+  margin: auto;  
+}
+ 
+
+#container1
+{
+  width: 720px;
+  margin: auto;
+}
+
+li :hover
+{
+  border-top: 0.2rem solid #0065FC;
+  color:  #0065FC;
+  padding-top: 3rem;
+}
+
+main
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 720px;
+margin: auto;
+}
+
+#container2
+{
+  width:720px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#container2 h1
+{
+font-size: 1.5rem;
+}
+
+#nav2 a
+{
+  font-size: 13px;
+}
+
+#container3
+{
+  width:720px;
+  padding: 0%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.bouton-afficher h2
+{
+ width: 720px;
+ margin: 0%;
+ flex-direction: column;
+}
+
+.hebergements
+{
+ margin-bottom: 2.5rem;
+}
+
+#container4
+{
+  width:720px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0%;
+  background-color: white;
+  border-color: white;
+  justify-content: space-evenly;
+}
+
+#container4 h1
+{
+  width: 720px;
+  display:flex ;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.description
+{
+  margin-left: 1rem;
+}
+
+.plus-populaires
+{
+margin-top: 0%;
+display: flex;
+flex-direction: column;
+width: 12rem;
+height:15rem;
+}
+
+.plus-populaires img 
+{
+width: 12rem;
+height: 7.5rem;
+border-bottom-left-radius: 0px;
+}
+
+#container5
+{
+  width: 720px;
+  margin:auto;
+  padding: 0%;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  padding-bottom: 2rem;
+  border-radius:15px;
+  justify-content: center;
+}
+
+#container5 h1
+{
+  width: 720px;
+  margin-left: 3rem;
+
+}
+
+#container5 h2
+{
+  margin-left: 1rem;
+}
+
+.ActivitésB
+{
+  width: 17rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.ActivitésA
+{
+  padding-bottom: 0.5rem;
+}
+
+.part1
+{
+ width: 17rem;
+}
+
+.ActivitésB img,.ActivitésA  img
+{
+ width: 17rem;
+ margin-bottom: 0.5rem;
+}
+
+.ActivitésA  img
+{
+  height: 24.5rem;
+}
+
+#container6
+{
+  width: 720px;
+  margin: auto;
+  margin-top: 4rem;
+  justify-content: space-evenly;
+  
+}
+
+.lien
+{
+  margin-top: 2rem;
+
+}

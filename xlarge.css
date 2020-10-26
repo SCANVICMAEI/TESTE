@@ -1,0 +1,72 @@
+/* 1140 */
+
+header
+{
+ width: 1140px;
+ margin: auto;
+}
+
+main
+{
+ width: 1140px;
+ margin: auto;
+}
+
+#container1
+{
+  width: 1140px;
+  margin: auto;
+}
+
+#container2
+{
+  width:1140px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+#container3 h1
+{
+margin-bottom: 0%;
+}
+
+
+#container5
+{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#container5 h1
+{
+width: 1140px;
+margin-left: 3rem;
+margin-bottom: 3rem;
+}
+
+.ActivitésB img,.ActivitésA img
+{
+  width: 16.5rem;
+}
+
+.ActivitésA img
+{
+  height: 22.5rem;
+}
+
+#container6
+{
+  width: 1140px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.lien
+{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-right: 10rem;
+}

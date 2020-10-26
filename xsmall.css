@@ -1,0 +1,268 @@
+/* 90% */
+
+/*Header*/
+
+#container1
+{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.inscription
+{
+  display: none;
+}
+
+.inscription2
+{
+  display: flex;
+  align-self: flex-end;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.inscription2:active
+{
+  color:black;
+  display: flex;
+}
+  
+nav
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1rem; 
+}
+
+li a 
+{
+ padding-left: 3rem;
+ padding-right: 3rem;
+ font-size: 1.2rem; 
+}
+
+li :hover
+{
+border-bottom: 0.2rem solid #0065FC;
+color:  #0065FC;
+padding-bottom: 1rem;
+border-top: none;
+}
+
+/* titres+barre recherche localisation et filtres+ligne info*/ 
+
+#container2
+{
+  width:90%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#container2 h1
+{
+  font-size: 2rem;
+}
+
+#container2 h3
+{
+  text-align: start;
+}
+
+#container2 h1, #container h3
+{
+text-align: center;
+}
+
+#nav1
+{
+  margin-bottom: 2rem;
+}
+
+#nav2, .filtres
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#nav2 a
+{
+  font-size: 14px;
+}
+
+.boutons
+{
+  margin-bottom: 2rem;
+  order: 1;
+}
+
+.bouton
+{
+  align-self: flex-end;
+  order: -1;
+  margin-bottom: -6rem;
+}
+
+.filtres
+{
+  margin-bottom: 2rem;
+}
+
+/*main*/
+
+.description
+{
+  margin-left: 1rem;
+}
+
+/*CONTENEUR3 = HEBERGEMENT A MARSEILLE*/
+
+#container3 h1, #container5 h1
+{
+  width: 90%;
+  
+}
+#container3
+{
+order: 2;
+padding: 0%;
+width: 90%;
+margin: auto;
+background-color: white;
+border-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.bouton-afficher h2
+{
+  width: 100%;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+
+.hebergements
+{
+  width: 90%;
+  height: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+.hebergements img
+{
+  width: 100%;
+  height: 60%;
+}
+
+/*CONTENEUR4 = LES PLUS POPULAIRES*/
+
+#container4 
+{
+order: 1;
+width: 90%;
+align-items: center;
+padding:0%;
+margin: auto;
+margin-top: 3rem;
+}
+
+#container4 h1
+{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 3rem;
+
+}
+
+.plus-populaires
+{
+  width: 90%;
+}
+
+
+/*CONTENEUR 5 = ACTIVITES A MARSEILLE  */
+
+#container5
+{
+  order: 3;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+#container5 h2
+{
+margin-left: 1rem;
+}
+
+
+.ActivitésB img, .ActivitésA img
+{
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.part2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:90%;
+  height: 15 rem;
+  margin-top: 2.5;
+}
+
+.part1
+{
+  width:90%;
+  height: 15 rem;
+}
+
+.part1
+{
+  margin-bottom: 2.5rem;
+}
+
+
+.ActivitésB 
+{
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 2.5rem;
+
+}
+
+.ActivitésA 
+{
+  width: 100%;
+  height: 15rem;
+}
+
+#container6
+{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.lien
+{
+  margin-bottom: 2rem;
+}
+
